@@ -98,7 +98,7 @@ apply_theme() {
 
 	window_status_fg=colour254 # white
     window_status_bg=colour0 # dark gray
-    window_status_format="#I[#W]"
+    window_status_format="#I:#W"
     tmux setw -g window-status-style fg=$window_status_fg,bg=$window_status_bg \; setw -g window-status-format "$window_status_format"
 
     window_status_current_fg=colour16 # black
